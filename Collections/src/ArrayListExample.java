@@ -24,12 +24,14 @@ public class ArrayListExample {
 	Employee emp1 = new Employee("blr", 01, 2.000);
 	Employee emp2 = new Employee("blr1", 02, 2.000);
 	Employee emp3 = new Employee("blr2", 03, 2.000);
+	Employee emp4 = new Employee("blr2", 03, 2.000);
 
 	 List<Employee> empList = new ArrayList<Employee>(3);
 	 
 	 empList.add(emp1);
 	 empList.add(emp2);
 	 empList.add(emp3);
+	 empList.add(emp4);
 	 for (Employee string1 : empList) {
 			System.out.println(string1);
 		}
